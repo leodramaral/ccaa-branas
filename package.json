@@ -1,0 +1,25 @@
+{
+  "name": "ccca-branas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compose:up": "docker compose up -d",
+    "compose:down": "docker compose down"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "axios": "^1.12.2",
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.10",
+    "pg-promise": "^12.2.0",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
